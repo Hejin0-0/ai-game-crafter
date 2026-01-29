@@ -125,13 +125,17 @@ Decoding legendary games and rebuilding them using modern AI capabilities. By le
 ```text
 .
 ├── mario-clone/          # Super Mario Clone Project
-│   ├── src/              # Source code (Python/Pygame)
-│   ├── assets/           # Sprites, Sounds, Maps
+│   ├── public/           # Static assets (Images, Sounds)
+│   │   └── images/       # Game sprites and tiles
+│   ├── js/               # Source code (Refactored to root for Vite)
+│   │   ├── loaders.js
+│   │   ├── main.js
+│   │   └── SpriteSheet.js
+│   ├── levels/           # Level design data (JSON)
+│   ├── index.html        # Main entry point for Vite
 │   └── LOG.md            # AI Collaboration Log (Gemini)
 ├── pokemon-rpg/          # Pokemon Style RPG Project
-│   ├── src/              # Source code (JS/Phaser)
-│   ├── data/             # Monster & Item Databases (JSON)
-│   └── LOG.md            # AI Collaboration Log (Claude)
+│   
 ├── docs/                 # General documentation & Design notes
 ├── .gitignore            # Git ignore settings
 ├── banner.png            # Repository Banner
@@ -150,31 +154,38 @@ Decoding legendary games and rebuilding them using modern AI capabilities. By le
 
 <details open>
   <summary><b>🇺🇸 English References</b></summary>
+  <br>
   <ul>
-    <li>📖 <a href="https://github.com/nature-of-code">The Nature of Code</a> — Fundamental physics and natural laws in games.</li>
-    <li>📖 <a href="https://gameprogrammingpatterns.com/">Game Programming Patterns</a> — Design patterns for game architecture.</li>
-    <li>🎥 <a href="https://www.youtube.com/@ClearCode">Clear Code</a> — Practical Python game development.</li>
-    <li>🌐 <a href="https://www.pygame.org/docs/">Pygame Docs</a> — Official documentation for Python game dev.</li>
+    <li>📖 <b>[Book]</b> <a href="https://github.com/nature-of-code">The Nature of Code</a> — Fundamental physics and natural laws in games.</li>
+    <li>📖 <b>[Book]</b> <a href="https://gameprogrammingpatterns.com/">Game Programming Patterns</a> — Design patterns for game architecture.</li>
+    <li>🎥 <b>[Video]</b> <a href="https://www.youtube.com/@ClearCode">Clear Code</a> — Practical Python game development.</li>
+    <li>🌐 <b>[Web]</b> <a href="https://www.pygame.org/docs/">Pygame Docs</a> — Official documentation for Python game dev.</li>
+    <li>💻 <b>[GitHub]</b> <a href="https://github.com/stuffbymax/Super-Open-Bros">Super-Open-Bros</a> — Open source assets and logic for Mario-style games.</li>
   </ul>
 </details>
 
 <details>
   <summary><b>🇰🇷 한국어 참고 자료</b></summary>
+  <br>
   <ul>
-    <li>📖 <a href="https://github.com/nature-of-code">The Nature of Code</a> — 게임 내 물리 현상 및 자연 법칙 구현의 바이블.</li>
-    <li>📖 <a href="https://gameprogrammingpatterns.com/">Game Programming Patterns</a> — 유연한 게임 구조 설계를 위한 디자인 패턴.</li>
-    <li>🎥 <a href="https://www.youtube.com/@ClearCode">Clear Code</a> — 파이썬 게임 개발 실무 강의.</li>
-    <li>🌐 <a href="https://www.pygame.org/docs/">Pygame Docs</a> — 파이썬 게임 개발 공식 문서.</li>
+    <li>📖 <b>[Book]</b> <a href="https://github.com/nature-of-code">The Nature of Code</a> — 게임 내 물리 현상 및 자연 법칙 구현의 바이블.</li>
+    <li>📖 <b>[Book]</b> <a href="https://gameprogrammingpatterns.com/">Game Programming Patterns</a> — 유연한 게임 구조 설계를 위한 디자인 패턴.</li>
+    <li>🎥 <b>[Video]</b> <a href="https://www.youtube.com/@ClearCode">Clear Code</a> — 파이썬 게임 개발 실무 강의.</li>
+    <li>🌐 <b>[Web]</b> <a href="https://www.pygame.org/docs/">Pygame Docs</a> — 파이썬 게임 개발 공식 문서.</li>
+    <li>💻 <b>[GitHub]</b> <a href="https://github.com/stuffbymax/Super-Open-Bros">Super-Open-Bros</a> — 마리오 스타일 게임을 위한 오픈 소스 에셋 및 로직 참고.</li>
   </ul>
 </details>
 
 <details>
   <summary><b>🇯🇵 日本語の参考資料</b></summary>
+  <br>
   <ul>
-    <li>📖 <a href="https://github.com/nature-of-code">The Nature of Code</a> — ゲームにおける物理現象と自然法則の実装。</li>
-    <li>📖 <a href="https://gameprogrammingpatterns.com/">Game Programming Patterns</a> — ゲーム開発のデザインパターン。</li>
-    <li>🎥 <a href="https://www.youtube.com/@ClearCode">Clear Code</a> — 実践的なPythonゲーム開発。</li>
-    <li>🌐 <a href="https://www.pygame.org/docs/">Pygame Docs</a> — Pythonゲーム開発公式ドキュメント。</li>
+    <li>📖 <b>[Book]</b> <a href="https://github.com/nature-of-code">The Nature of Code</a> — ゲームにおける物理現象と自然法則の実装。</li>
+    <li>📖 <b>[Book]</b> <a href="https://gameprogrammingpatterns.com/">Game Programming Patterns</a> — ゲーム開発のデザインパターン。</li>
+    <li>🎥 <b>[Video]</b> <a href="https://www.youtube.com/@ClearCode">Clear Code</a> — 実践的なPythonゲーム開発。</li>
+    <li>🌐 <b>[Web]</b> <a href="https://www.pygame.org/docs/">Pygame Docs</a> — Pythonゲーム開発公式ドキュメント。</li>
+    <li>💻 <b>[GitHub]</b> <a href="https://github.com/stuffbymax/Super-Open-Bros">Super-Open-Bros</a> — マリオ風ゲームのためのオープンソースアセットとロジック。</li>
   </ul>
 </details>
 
+---

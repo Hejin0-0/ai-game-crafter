@@ -1,0 +1,701 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 221,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "35684fc9-300e-42b1-8be3-a99621ccaed0",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "0.0.1",
+    "name": "Super Open Bros",
+    "description": "",
+    "author": "",
+    "windowWidth": 781,
+    "windowHeight": 510,
+    "latestCompilationDirectory": "",
+    "maxFPS": 120,
+    "minFPS": 30,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "SMB.jpg",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "dark",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 2,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": false,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [
+      "keyboard"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "Mario_Big_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Big_Idle.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Mario_Big_Jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Big_Jump.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Mario_Big_Run1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Big_Run1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Mario_Big_Run2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Big_Run2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Mario_Big_Run3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Big_Run3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Mario_Big_Slide.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Big_Slide.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Mario_Small_Death.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Small_Death.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Brick.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brick.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Bush1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Bush2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Bush3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Castle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Castle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Cloud1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cloud1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Cloud2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cloud2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Cloud3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cloud3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Coin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Coin_Underground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Underground.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "EmptyBlock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EmptyBlock.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Flag.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flag.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "FlagPole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FlagPole.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "GroundBlock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GroundBlock.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "HardBlock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HardBlock.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Hill1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hill1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Hill2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hill2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "MysteryBlock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MysteryBlock.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Mario_Small_Death2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Small_Death2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Mario_Small_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Small_Idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Mario_Small_Jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Small_Jump.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Mario_Small_Run1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Small_Run1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Mario_Small_Run2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Small_Run2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Mario_Small_Run3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Small_Run3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Mario_Small_Slide.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Small_Slide.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "PipeBottom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PipeBottom.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "PipeConnection.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PipeConnection.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "PipeTop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PipeTop.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Starman.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Starman.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "UndergroundBlock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UndergroundBlock.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "UndergroundBrick.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "UndergroundBrick.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Goomba_Flat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Goomba_Flat.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Goomba_Walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Goomba_Walk1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Goomba_Walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Goomba_Walk2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Koopa_Walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Koopa_Walk1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Koopa_Walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Koopa_Walk2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Koopa_Shell.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Koopa_Shell.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Health Bar/3e4dd6fb7044eed7b3e433effc095037cbe58eb5e2a34d6280d969fbeacf8612_Heart.png",
+          "name": "Heart.png"
+        }
+      },
+      {
+        "file": "HUD Menus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HUD Menus.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Goomba_Walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Goomba_Walk3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Starman2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Starman2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Super Mario Bros. 2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Super Mario Bros. 2.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "../../../Desktop/Super Mario Bros. 2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "../../../Desktop/Super Mario Bros. 2.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "1upMushroom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1upMushroom.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "MagicMushroom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MagicMushroom.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Coin_Underground2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Underground2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Coin_Underground3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coin_Underground3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Koopa_Walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Koopa_Walk3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Koopa_Shell2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Koopa_Shell2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Mario_Small_Idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mario_Small_Idle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "EmptyBlock2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EmptyBlock2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "SuperMarioBrosMap1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SuperMarioBrosMap1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Bush4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Bush5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bush5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite.png\",\"extension\":\".png\"}",
+        "name": "assets/NewSprite.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/objectdel.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "objectdel",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "SMB.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "SMB.jpg",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "DebugMode",
+      "type": "boolean",
+      "value": true
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/test-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/thanks-screen"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/fps"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
